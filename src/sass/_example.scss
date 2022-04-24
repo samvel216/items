@@ -1,0 +1,77 @@
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 15px;
+}
+
+.barometr {
+  width: 142px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  position: relative;
+}
+.top-path-barometr {
+  width: 70px;
+  height: 50px;
+  background-color: #C1B8B8;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  border-top-left-radius: 70%;
+  border-top-right-radius: 70%;
+  border: 1px solid;
+  border-bottom-color: #C1B8B8;
+}
+.top-path-barometr-inserted {
+  width: 35px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #6A73C4;
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.midle-barometr-path {
+  width: 70px;
+  height: 400px;
+  background-color: #C1B8B8;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid;
+  border-top-color: #C1B8B8;
+  border-bottom: #C1B8B8;
+}
+.midle-path-barometr-inserted {
+  width: 35px;
+  height: 450px;
+  background-color: #6A73C4;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bottom-path-barometr {
+  width: 142px;
+  height: 142px;
+  background-color: #C1B8B8;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 3%; 
+  border: 1px solid;
+  z-index: -1;
+}
+.bottom-path-barometr-inserted {
+  background-color: #6A73C4;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
